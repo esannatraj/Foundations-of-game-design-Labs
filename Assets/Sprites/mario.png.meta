@@ -119,6 +119,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -228,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_standing_left
+      name: small_mario_standing_left
       rect:
         serializedVersion: 2
         x: 181
@@ -249,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_standing_right
+      name: small_mario_standing_right
       rect:
         serializedVersion: 2
         x: 211
@@ -270,7 +283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_7
+      name: small_mario_run_right
       rect:
         serializedVersion: 2
         x: 241
@@ -291,7 +304,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_8
+      name: small_mario_stutter_step_right
       rect:
         serializedVersion: 2
         x: 272
@@ -312,7 +325,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_9
+      name: small_mario_full_stride_right
       rect:
         serializedVersion: 2
         x: 300
@@ -333,7 +346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_10
+      name: small_mario_skid
       rect:
         serializedVersion: 2
         x: 331
@@ -354,7 +367,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_11
+      name: small_mario_jump_right
       rect:
         serializedVersion: 2
         x: 359
@@ -375,7 +388,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_12
+      name: small_mario_die
       rect:
         serializedVersion: 2
         x: 0
@@ -1983,9 +1996,6 @@ TextureImporter:
     nameFileIdTable:
       mario_0: 156639657
       mario_1: -992806184
-      mario_10: 576064229
-      mario_11: 622623575
-      mario_12: 1547129531
       mario_13: 478637063
       mario_14: 533719292
       mario_15: 1621199736
@@ -2046,7 +2056,6 @@ TextureImporter:
       mario_67: -1070757807
       mario_68: -831397505
       mario_69: 555404067
-      mario_7: 1279130593
       mario_70: 1925630444
       mario_71: 763820035
       mario_72: 468307304
@@ -2057,7 +2066,6 @@ TextureImporter:
       mario_77: -819887287
       mario_78: 1376700833
       mario_79: -1880801334
-      mario_8: 1040382562
       mario_80: -1161653522
       mario_81: 1200490592
       mario_82: -395530976
@@ -2066,9 +2074,14 @@ TextureImporter:
       mario_85: -161713239
       mario_86: -432447925
       mario_87: -1398293634
-      mario_9: -852283031
-      mario_standing_left: 1842104137
-      mario_standing_right: -16393631
+      small_mario_die: 1547129531
+      small_mario_full_stride_right: -852283031
+      small_mario_jump_right: 622623575
+      small_mario_run_right: 1279130593
+      small_mario_skid: 576064229
+      small_mario_standing_left: 1842104137
+      small_mario_standing_right: -16393631
+      small_mario_stutter_step_right: 1040382562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
